@@ -8,16 +8,16 @@ fun setPercentage(percentage: Int) {
         println("current progress is $percentage")
     } else throw IllegalArgumentException("the value should be 0 - 100: $percentage")
 }
-fun readNumber(reader: BufferedReader): Int? {
-    try {
-        val line = reader.readLine()
-        return Integer.parseInt(line)
-    } catch (e: NumberFormatException) {
-        return null
-    } finally {
-        reader.close()
-    }
-}
+//fun readNumber(reader: BufferedReader): Int? {
+//    try {
+//        val line = reader.readLine()
+//        return Integer.parseInt(line)
+//    } catch (e: NumberFormatException) {
+//        return null
+//    } finally {
+//        reader.close()
+//    }
+//}
 
 fun readNumerV2(reader: BufferedReader) {
     
