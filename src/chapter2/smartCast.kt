@@ -23,7 +23,7 @@ fun evalWithLogging(expr: Expr): Int = when(expr) {
         val left = evalWithLogging(expr.leftExpr)
         val right = evalWithLogging(expr.rightExpr)
         println("Sum $left + $right")
-        left + right //the last expression in the block si the result
+        left + right //the last expression in the block is the result
     }
     else -> throw IllegalArgumentException("unknown expression.")
 }

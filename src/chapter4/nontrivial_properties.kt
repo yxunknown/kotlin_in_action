@@ -46,6 +46,25 @@ class Student(val name: String) {
                 address was changed for $name:
                 "$field" -> "$value" //read the back field
                 """.trimIndent())
+            //what is $filed mean for
+            //the field is a special identifier to access the backing field
+            //in a getter, you can only read it
+            //but in a setter, you can read or change it
             field = value //change the back field
+//            address = value // produce a recursive call
         }
+
+    override fun toString(): String {
+        return """
+            student: {name: $name, address: $address}
+        """.trimIndent()
+    }
+}
+
+fun main(args: Array<String>) {
+    val student = Student("程飘")
+    println(student)
+    student.address = "Nanan district, Chongqing city"
+    println(student)
+
 }
