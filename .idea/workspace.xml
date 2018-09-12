@@ -2,8 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb099768-8d37-4727-9012-3f9ae6ae5eea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/chapter4/companion_object_extension.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter4/companion_object_interface.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter4/object_expression.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter5/apply.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter5/create_sequence.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter5/lambda_expression.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter5/sam_lambda_conversion.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter5/sequence.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter5/with.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter6/late-initialized.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter6/nullable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter6/nullable_extensition_function.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter6/nullabliti_type_paramter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter6/safe_call.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter7/delegae_poperties.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter8/high_order_function.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/kotlin_in_action/META-INF/kotlin_in_action.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin_in_action/META-INF/kotlin_in_action.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter4/object_class.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter4/object_class.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,36 +33,42 @@
     <session id="1846792792">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.12" value="2" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.10" value="3" />
+          <entry key="project.open.time.12" value="3" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
-          <entry key="kt" value="16" />
+          <entry key="java" value="5" />
+          <entry key="kt" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
-          <entry key="Kotlin" value="16" />
+          <entry key="JAVA" value="5" />
+          <entry key="Kotlin" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="29" />
-          <entry key="kt" value="6810" />
+          <entry key="kt" value="13960" />
           <entry key="txt" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="29" />
-          <entry key="Kotlin" value="6810" />
+          <entry key="Kotlin" value="13960" />
           <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
@@ -53,20 +76,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter4/constuctor.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1872">
-              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/chapter4/nontrivial_properties.kt">
+        <entry file="file://$PROJECT_DIR$/src/chapter8/high_order_function.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="604">
-              <caret line="47" column="33" lean-forward="true" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+            <state relative-caret-position="712">
+              <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -104,6 +118,23 @@
         <option value="$PROJECT_DIR$/src/chapter4/sealed_class.kt" />
         <option value="$PROJECT_DIR$/src/chapter4/constuctor.kt" />
         <option value="$PROJECT_DIR$/src/chapter4/nontrivial_properties.kt" />
+        <option value="$PROJECT_DIR$/src/chapter4/companion_object_interface.kt" />
+        <option value="$PROJECT_DIR$/src/chapter4/object_class.kt" />
+        <option value="$PROJECT_DIR$/src/chapter4/companion_object_extension.kt" />
+        <option value="$PROJECT_DIR$/src/chapter4/object_expression.kt" />
+        <option value="$PROJECT_DIR$/src/chapter5/lambda_expression.kt" />
+        <option value="$PROJECT_DIR$/src/chapter5/sequence.kt" />
+        <option value="$PROJECT_DIR$/src/chapter5/create_sequence.kt" />
+        <option value="$PROJECT_DIR$/src/chapter5/sam_lambda_conversion.kt" />
+        <option value="$PROJECT_DIR$/src/chapter5/with.kt" />
+        <option value="$PROJECT_DIR$/src/chapter5/apply.kt" />
+        <option value="$PROJECT_DIR$/src/chapter6/nullable.kt" />
+        <option value="$PROJECT_DIR$/src/chapter6/safe_call.kt" />
+        <option value="$PROJECT_DIR$/src/chapter6/late-initialized.kt" />
+        <option value="$PROJECT_DIR$/src/chapter6/nullable_extensition_function.kt" />
+        <option value="$PROJECT_DIR$/src/chapter6/nullabliti_type_paramter.kt" />
+        <option value="$PROJECT_DIR$/src/chapter7/delegae_poperties.kt" />
+        <option value="$PROJECT_DIR$/src/chapter8/high_order_function.kt" />
       </list>
     </option>
   </component>
@@ -114,18 +145,16 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="310" />
+    <option name="x" value="189" />
     <option name="y" value="27" />
-    <option name="width" value="964" />
-    <option name="height" value="1023" />
+    <option name="width" value="1397" />
+    <option name="height" value="831" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,197 +167,21 @@
               <item name="kotlin_in_action" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="kotlin_in_action" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlin_in_action" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter4" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533827513340" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535638537265" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/uiDesigner.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/ktolin_in_action.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/META-INF/ktolin_in_action.kotlin_module</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter2/ClazzKt.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter2/Color.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter2/CustomAccessorsKt.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter2/EnumwhenKt$WhenMappings.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter2/EnumwhenKt.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter2/ExceptionKt.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter2/Expr.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter2/ImporttestKt.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter2/IteratorKt.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter2/Num.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter2/Person.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter2/Rectangle.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter2/SmartCastKt.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter2/Sum.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter3/ExtensionTest.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter3/Extension_apiKt.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter3/Extension_propertiesKt.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter3/InfixKt.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter3/Local_functionKt$saveUserV2$1.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter3/Local_functionKt$saveUserV3$1.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter3/Local_functionKt$validateToSave$1.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter3/Local_functionKt.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter3/Regular_expressionKt.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter3/Triple_quoted_stringKt.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter3/User.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter4/A.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter4/Abstract_classKt.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter4/Animal.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter4/B.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter4/Button.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter4/C.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter4/Cat.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter4/Clickable$DefaultImpls.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter4/Clickable.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter4/Focusable$DefaultImpls.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter4/Focusable.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter4/Hashiqi.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter4/Human.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter4/Interface_classKt.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter4/Open_classKt.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/ktolin_in_action/chapter4/Visibility_modifierKt.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/chapter2/CustomAccessors.kt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/chapter2/clazz.kt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/chapter2/enumwhen.kt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/chapter2/exception.kt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/chapter2/importtest.kt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/chapter2/iterator.kt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/chapter2/smartCast.kt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/chapter3/ExtensionTest.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/chapter3/extension_api.kt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/chapter3/extension_properties.kt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/chapter3/infix.kt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/chapter3/local_function.kt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/chapter3/regular_expression.kt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/chapter3/triple_quoted_string.kt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/chapter4/abstract_class.kt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/chapter4/inner_class.kt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/chapter4/interface_class.kt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/chapter4/open_class.kt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/chapter4/visibility_modifier.kt</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -342,86 +195,86 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.chapter4.ConstuctorKt">
-    <configuration name="chapter3.ExtensionfunctionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Kotlin.chapter8.High_order_functionKt">
+    <configuration name="chapter6.Late_initializedKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin_in_action" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chapter3.ExtensionfunctionKt" />
+      <option name="MAIN_CLASS_NAME" value="chapter6.Late_initializedKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chapter3.ExtensionfunctionimporttestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="chapter6.Nullable_extensition_functionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin_in_action" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chapter3.ExtensionfunctionimporttestKt" />
+      <option name="MAIN_CLASS_NAME" value="chapter6.Nullable_extensition_functionKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chapter3.OverridingKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="chapter6.Nullabliti_type_paramterKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin_in_action" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chapter3.OverridingKt" />
+      <option name="MAIN_CLASS_NAME" value="chapter6.Nullabliti_type_paramterKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chapter4.ConstuctorKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="chapter7.Delegae_popertiesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin_in_action" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chapter4.ConstuctorKt" />
+      <option name="MAIN_CLASS_NAME" value="chapter7.Delegae_popertiesKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chapter4.Sealed_classKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="chapter8.High_order_functionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin_in_action" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="chapter4.Sealed_classKt" />
+      <option name="MAIN_CLASS_NAME" value="chapter8.High_order_functionKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.chapter3.ExtensionfunctionKt" />
-      <item itemvalue="Kotlin.chapter3.ExtensionfunctionimporttestKt" />
-      <item itemvalue="Kotlin.chapter3.OverridingKt" />
-      <item itemvalue="Kotlin.chapter4.Sealed_classKt" />
-      <item itemvalue="Kotlin.chapter4.ConstuctorKt" />
+      <item itemvalue="Kotlin.chapter6.Late_initializedKt" />
+      <item itemvalue="Kotlin.chapter6.Nullable_extensition_functionKt" />
+      <item itemvalue="Kotlin.chapter6.Nullabliti_type_paramterKt" />
+      <item itemvalue="Kotlin.chapter7.Delegae_popertiesKt" />
+      <item itemvalue="Kotlin.chapter8.High_order_functionKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.chapter4.ConstuctorKt" />
-        <item itemvalue="Kotlin.chapter4.Sealed_classKt" />
-        <item itemvalue="Kotlin.chapter3.OverridingKt" />
-        <item itemvalue="Kotlin.chapter3.ExtensionfunctionimporttestKt" />
-        <item itemvalue="Kotlin.chapter3.ExtensionfunctionKt" />
+        <item itemvalue="Kotlin.chapter8.High_order_functionKt" />
+        <item itemvalue="Kotlin.chapter7.Delegae_popertiesKt" />
+        <item itemvalue="Kotlin.chapter6.Nullabliti_type_paramterKt" />
+        <item itemvalue="Kotlin.chapter6.Nullable_extensition_functionKt" />
+        <item itemvalue="Kotlin.chapter6.Late_initializedKt" />
       </list>
     </recent_temporary>
   </component>
@@ -439,6 +292,16 @@
       <workItem from="1533731318170" duration="6505000" />
       <workItem from="1533822190927" duration="247000" />
       <workItem from="1533822441703" duration="5086000" />
+      <workItem from="1533954704475" duration="10873000" />
+      <workItem from="1533994584943" duration="12000" />
+      <workItem from="1533995855974" duration="86000" />
+      <workItem from="1534671278725" duration="396000" />
+      <workItem from="1534671699431" duration="4324000" />
+      <workItem from="1534771707736" duration="495000" />
+      <workItem from="1534860900232" duration="1772000" />
+      <workItem from="1535374955613" duration="1753000" />
+      <workItem from="1535630051875" duration="3736000" />
+      <workItem from="1535763155273" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="chapter4">
       <created>1533827490559</created>
@@ -451,23 +314,24 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17080000" />
+    <option name="totallyTimeSpent" value="40533000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="26" width="1920" height="1054" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2596154" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.22596154" />
       <window_info id="Learn" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32900432" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4293866" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -475,7 +339,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.33116883" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32900432" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3272933" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -503,13 +367,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter1/Person.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -581,19 +438,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
           <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-          <folding>
-            <element signature="e#18#75#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter4/sealed_class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter4/sealed_class.java" />
     <entry file="file://$PROJECT_DIR$/src/chapter3/overriding.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -615,17 +463,156 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter4/constuctor.kt">
+    <entry file="file://$PROJECT_DIR$/src/chapter4/nontrivial_properties.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1872">
-          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+        <state relative-caret-position="364">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter4/nontrivial_properties.kt">
+    <entry file="file://$PROJECT_DIR$/src/chapter4/constuctor.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="47" column="33" lean-forward="true" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+        <state relative-caret-position="1872">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter4/companion_object_interface.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter4/companion_object_extension.java" />
+    <entry file="file://$PROJECT_DIR$/src/chapter4/object_class.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="66" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter4/companion_object_extension.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter4/object_expression.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter4/inner_class.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-568" />
+      </provider>
+    </entry>
+    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/common/generated/_Collections.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="1558" column="53" selection-start-line="1558" selection-start-column="53" selection-end-line="1558" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter1/Person.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter5/lambda_expression.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter5/sequence.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter5/create_sequence.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter5/sam_lambda_conversion.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter6/nullable.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="84" selection-start-line="9" selection-start-column="84" selection-end-line="9" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter5/apply.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter5/with.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter6/safe_call.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter6/late-initialized.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter6/nullable_extensition_function.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter6/nullabliti_type_paramter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter7/delegae_poperties.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter8/high_order_function.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="712">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
         </state>
       </provider>
     </entry>
