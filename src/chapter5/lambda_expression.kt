@@ -1,6 +1,6 @@
 package chapter5
 
-import chapter1.Person
+
 
 data class Star(val name: String, val count: Int)
 
