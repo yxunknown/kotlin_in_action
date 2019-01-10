@@ -1,7 +1,5 @@
 package chapter3;
 
-import org.jetbrains.annotations.NotNull;
-
 /**
  * @author mevur
  * @date 18/8/9
@@ -20,7 +18,7 @@ public class ExtensionTest {
         show("java", "kotlin", "c++");
     }
 
-    public static void show(@NotNull String... args) {
+    public static void show(String... args) {
         for (String s : args) {
             System.out.print(s + " ");
         }
